@@ -1,3 +1,12 @@
 {
-  "react-navigation": "^2.18.1"
+  "axios": "0.18.0",
+  "react-native-fcm": "16.2.3",
+  "react-native-splash-screen": "3.1.1",
+  "react-native-vector-icons": "6.0.2",
+  "react-navigation": "2.18.2",
+  "react-redux": "5.1.0",
+  "redux": "4.0.1",
+  "redux-persist": "5.10.0",
+  "redux-saga": "0.16.2",
+  "styled-components": "4.0.2"
 }
