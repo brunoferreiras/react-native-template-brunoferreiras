@@ -1,4 +1,19 @@
-{ 
-  "name": "react-native-template-brunoferreiras", 
-  "version": "0.1.0"
+{
+  "name": "react-native-template-brunoferreiras",
+  "version": "0.1.0",
+  "author": "Bruno Ferreira <fs.brunoferreira@gmail.com>",
+  "description": "Template to init a project with React Native",
+  "homepage": "https://github.com/brunoferreiras/react-native-template-brunoferreiras",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brunoferreiras/react-native-template-brunoferreiras/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:brunoferreiras/react-native-template-brunoferreiras.git"
+  },
+  "keywords": [
+    "react-native",
+    "template"
+  ]
 }
