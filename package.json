@@ -8,10 +8,6 @@
   "bugs": {
     "url": "https://github.com/brunoferreiras/react-native-template-brunoferreiras/issues"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/brunoferreiras/react-native-template-brunoferreiras.git"
-  },
   "keywords": [
     "react-native",
     "template"
