@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import configureStore from './store/configureStore';
+import configureStore from './src/store/configureStore';
 import { Provider } from 'react-redux';
 
 const store = configureStore();
