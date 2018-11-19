@@ -1,3 +1,7 @@
 {
-  "prettier": "^1.14.3"
+  "prettier": "1.14.3",
+  "enzyme": "3.7.0",
+  "enzyme-adapter-react-16": "1.6.0",
+  "jest": "23.6.0",
+  "babel-jest": "23.6.0"
 }
