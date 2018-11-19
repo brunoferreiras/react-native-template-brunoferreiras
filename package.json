@@ -8,6 +8,16 @@
   "bugs": {
     "url": "https://github.com/brunoferreiras/react-native-template-brunoferreiras/issues"
   },
+  "scripts": {
+    "release": "node node_modules/react-native/local-cli/cli.js run-android --variant=release",
+    "debug": "node node_modules/react-native/local-cli/cli.js run-android",
+    "build-dev": "cd android && ./gradlew clean && cd .. && npm run debug",
+    "build-release": "cd android && ./gradlew clean && cd .. && npm run release",
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "test:watch": "npm test -- --watch",
+    "test:coverage": "npm test -- --coverage"
+  },
   "keywords": [
     "react-native",
     "template"
