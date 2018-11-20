@@ -16,7 +16,26 @@ The following describes the information you need to run the project.
  ```
  Wait for download dependencies.
 
- # Third party bugs
+### Add Scripts in your package.json
+```JSON
+  {
+    ...,
+    "scripts": {
+      "release": "node node_modules/react-native/local-cli/cli.js run-android --variant=release",
+      "debug": "node node_modules/react-native/local-cli/cli.js run-android",
+      "build-dev": "cd android && ./gradlew clean && cd .. && npm run debug",
+      "build-release": "cd android && ./gradlew clean && cd .. && npm run release",
+      "start": "node node_modules/react-native/local-cli/cli.js start",
+      "test": "jest",
+      "test:watch": "npm test -- --watch",
+      "test:coverage": "npm test -- --coverage",
+      "lint": "eslint *.js **/*.js",
+      "lint:tests": "eslint __tests__/**/*.js"
+    },
+    ...
+  }
+```
+# Third party bugs
 
 When a new project is started based on our template we've some bugs on XCode environment. To fix this you'll have to install third party modules and then configure glog lib, so follow this steps:
 ```bash
@@ -46,7 +65,7 @@ And then run `pod install`. Now you ready to go!
  ## Contributing
  Please read [CONTRIBUTING.md](https://github.com/brunoferreiras/react-native-template-brunoferreiras/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
  ## Versioning
- We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/brunoferreiras/react-native-template-brunoferreiras/tags). 
+ We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/brunoferreiras/react-native-template-brunoferreiras/tags).
  ## Authors
  * **Bruno Ferreira** - [Github](https://github.com/brunoferreiras)
  * **Vitor Veras** - [Github](https://github.com/vitor-veras)

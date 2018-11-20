@@ -29,7 +29,9 @@
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
     "test:watch": "npm test -- --watch",
-    "test:coverage": "npm test -- --coverage"
+    "test:coverage": "npm test -- --coverage",
+    "lint": "eslint *.js **/*.js",
+    "lint:tests": "eslint __tests__/**/*.js"
   },
   "keywords": [
     "react-native",
