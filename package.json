@@ -5,6 +5,19 @@
   "description": "Template to init a project with React Native",
   "homepage": "https://github.com/brunoferreiras/react-native-template-brunoferreiras",
   "license": "MIT",
+  "nyc": {
+    "functions": 80,
+    "lines": 80,
+    "check-coverage": true,
+    "reporter": [
+      "text",
+      "html"
+    ],
+    "exclude": [
+      "**/*.test.js",
+      "build"
+    ]
+  },
   "bugs": {
     "url": "https://github.com/brunoferreiras/react-native-template-brunoferreiras/issues"
   },
